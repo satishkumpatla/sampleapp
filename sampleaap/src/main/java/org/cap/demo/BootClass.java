@@ -9,6 +9,10 @@ public class BootClass {
 		
 	}
 	public static void show() {
+		int arr[]= {11,21,31,41,51};
+		for (int i=0;i<10;i++ ) {
+			System.out.println(arr[i]);
+		}
 		System.out.println("Method displayed");
 	}
 
